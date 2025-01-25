@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import WebKit
+@preconcurrency import WebKit
 
 class PreviewViewController: NSViewController, WKNavigationDelegate {
 

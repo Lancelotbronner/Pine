@@ -13,10 +13,4 @@
    <FileRef
       location = "group:Pine.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Pine.xcodeproj">
-   </FileRef>
 </Workspace>
