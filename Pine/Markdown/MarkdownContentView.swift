@@ -9,9 +9,11 @@
 import SwiftUI
 
 struct MarkdownContentView: View {
+	let document: MarkdownDocument
+
 	var body: some View {
 		NavigationSplitView {
-
+			MarkdownSidebar(document: document)
 		} detail: {
 
 		}

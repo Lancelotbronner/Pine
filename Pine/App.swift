@@ -10,8 +10,12 @@ import SwiftUI
 
 @main
 struct Pine: App {
+	@State private var model = ApplicationModel()
+
 	var body: some Scene {
 		WelcomeScene()
+			.environment(\.application, model)
 		MarkdownScene()
+			.environment(\.application, model)
 	}
 }

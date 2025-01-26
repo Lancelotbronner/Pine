@@ -10,8 +10,8 @@ import SwiftUI
 
 struct MarkdownScene: Scene {
 	var body: some Scene {
-		DocumentGroup(newDocument: MarkdownDocument()) { configuration in
-			
+		DocumentGroup(newDocument: { MarkdownDocument() }) { configuration in
+			MarkdownContentView(document: configuration.document)
 		}
 		.commands {
 			
