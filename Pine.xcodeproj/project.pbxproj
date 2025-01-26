@@ -36,11 +36,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		737471182D469E6100385A12 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A156AF7C2090606C0098BBDD /* Pine */;
+		};
 		73F2F9642D45478B0077A9F2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Development/MARKDOWN_REFERENCE.md,
-				Development/RELEASE.md,
 			);
 			target = A156AF7C2090606C0098BBDD /* Pine */;
 		};
@@ -63,7 +69,7 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		73F2F94C2D443E6C0077A9F2 /* Packages */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Packages; sourceTree = "<group>"; };
 		73F2F9612D45478B0077A9F2 /* Docs */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (73F2F9642D45478B0077A9F2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Docs; sourceTree = "<group>"; };
-		73F2FA932D4548020077A9F2 /* Pine */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (Resources/autocomplete, "Resources/highlight-js", ); path = Pine; sourceTree = "<group>"; };
+		73F2FA932D4548020077A9F2 /* Pine */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (737471182D469E6100385A12 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (Resources/autocomplete, "Resources/highlight-js", ); path = Pine; sourceTree = "<group>"; };
 		73F2FADF2D4548050077A9F2 /* PineTests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (73F2FAE52D4548050077A9F2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = PineTests; sourceTree = "<group>"; };
 		73F2FAE92D4548070077A9F2 /* PineUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (73F2FAED2D4548070077A9F2 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = PineUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -460,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.Pine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -488,7 +494,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.Pine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

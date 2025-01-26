@@ -10,7 +10,7 @@ import Cocoa
 
 let defaults = UserDefaults.standard
 
-@NSApplicationMain
+//@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
   var splashScreenWindowController: SplashScreenWindowController! = nil
